@@ -1,0 +1,16 @@
+.ToggleButton{
+    margin-left: 17%;
+    margin-top: 1%;
+}
+
+.ToggleButton :hover{
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+	.ToggleButton{
+        margin-left: 5%;
+        margin-top: 0.5%;
+        margin-bottom: 0.5%;
+    }
+}

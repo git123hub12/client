@@ -1,0 +1,79 @@
+/* PrivacyPolicy.css */
+html, body {
+  scroll-behavior: smooth;
+  height: 100%;
+}
+.terms-container {
+  max-width: 800px;
+  margin: 10px;
+  padding-left: 5px;
+}
+
+.termsAndConditionsPrivacy{
+  border: 25px groove #0085fe;
+  padding-left: 25px;
+  padding-right: 25px;
+  text-align: justify;
+  max-height: 100vh; /* Set a maximum height for the container, adjust as needed */
+  overflow-y: auto; 
+}
+
+.color{
+  color:#0085fe;
+  align-items: center;
+}
+
+.header{
+  display:block;
+  color:  #fff;
+  background: linear-gradient(90deg, rgb(0, 133, 254) 0%,
+  rgb(255, 255, 255) 27.64%,
+  rgb(255, 255, 255) 75.62%,
+  rgb(0, 133, 254) 99.17%);
+  margin: 10px;
+  padding: 20px;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  border-radius: 8px; 
+  box-shadow: 0px 4px 8px rgba(0, 133, 254, 0.5); 
+}
+
+.information{
+  margin: 0
+}
+
+.footerStyle{
+  background-color: #0085fe;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.bold{
+  color: #0085fe;
+}
+
+.headings{
+  font-weight:bold;
+  text-decoration: underline;
+  color: #0085fe;
+}
+
+.subheading{
+  font-style: italic;
+  font-weight: bold;
+  color: #0085fe;
+}
+
+p {
+  line-height: 1.6;
+  color: #000;
+}
+
+.logo {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.5em;
+}  
